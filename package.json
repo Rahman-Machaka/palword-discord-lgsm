@@ -1,0 +1,20 @@
+{
+  "name": "palworld-command-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for controlling and monitoring a Palworld server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.26.5",
+    "dotenv": "^17.4.2"
+  },
+  "overrides": {
+    "undici": "6.27.0"
+  }
+}

@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime state
+palworld-status-message.json
+palworld-pm2-alert-state.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Operating-system files
+.DS_Store
+Thumbs.db
